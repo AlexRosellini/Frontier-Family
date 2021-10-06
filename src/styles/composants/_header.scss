@@ -1,0 +1,33 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        @include flex-C;
+        background-color: $header;
+
+    }
+
+    &__picture {
+        @include padding-top-bottom-large;
+        @include padding-right-large;
+        & img {
+            height: 100px;
+        }
+    }
+}
+
+.nav {
+    background-color: $nav;
+    
+    &__ul {
+        @include flex-C;
+        flex-direction: row;
+    }
+
+    &__li {
+        @include padding-left-right-large;
+        @include padding-top-bottom-large;
+    }
+}

@@ -1,0 +1,70 @@
+.rover {
+    @include margin-top-bottom-large;
+    background-color: $rover;
+    display: flex;
+
+
+    &-left {
+        width: 50%;
+        @include padding-left-right-large;    
+        @include padding-top-bottom-large;
+
+        border-right: 1px solid black;
+
+
+        &__picture {
+
+            @include flex-C;
+            
+            & img {
+                width: 450px;
+                height: 450px;
+            }
+        }
+
+        & p {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 14px;
+
+        }
+    }
+
+    &-right {
+        @include padding-left-right-large;    
+        @include padding-top-bottom-large;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & h2 {
+            @include padding-top-bottom-large;
+        }
+    }
+
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    @include margin-top-bottom-large;
+    text-align: center;
+
+    &__table {
+        border: 1px solid black;
+    }
+
+    &__thead {
+        background-color:rgb(46, 46, 46);
+    }
+
+    &__tbody {
+        background-color: rgb(66, 66, 66);
+    }
+
+    &__th, &__td {
+        @include padding-left-right-large;
+    }
+}
