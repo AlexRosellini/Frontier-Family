@@ -5,7 +5,7 @@ const Header = () => {
         <header className="header">
             <div className="header__title">
                 <div className="header__picture">
-                    <Link to = "/"><img src="https://i.ibb.co/hZzLR7d/Silverdawn.png" alt="Sd logo"/></Link>
+                    <Link to = "/Frontier-Family/"><img src="https://i.ibb.co/hZzLR7d/Silverdawn.png" alt="Sd logo"/></Link>
                 </div>
                 <h1>Welcome to the Frontier's Rover!</h1>
             </div>
