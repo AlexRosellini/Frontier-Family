@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from './components/header';
 import Index from './components';
 import TtrpgMainPage from './components/ttrpg';
+import TtrpgChars from './components/ttrpg-chars';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
           </Route>
           <Route exact path = '/ttrpg'>
             <TtrpgMainPage />
+          </Route>
+          <Route exact path = '/ttrpg/emps-characters'>
+            <TtrpgChars />
           </Route>
         </Switch>
         </div>

@@ -37,16 +37,18 @@ const TtrpgMainPage = () => {
                     </div>
                 </div>
                 <div className="cards-card">
-                    <div className="cards-card__top">
-                        <h3>Emp's Characters</h3>
-                        <div className="cards-card__img cards-card__celia">
-                            <img src="./imgs/Celia.png" alt="Celia"/>
+                    <Link to='/ttrpg/emps-characters'>
+                        <div className="cards-card__top">
+                            <h3>Emp's Characters</h3>
+                            <div className="cards-card__img cards-card__celia">
+                                <img src="./imgs/Celia.png" alt="Celia"/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="cards-card__bottom">
-                        <p>Here you will find my various backgrounds as well as character sheets. This category is currently
-                        partially available.</p>
-                    </div>
+                        <div className="cards-card__bottom">
+                            <p>Here you will find my various backgrounds as well as character sheets. This category is currently
+                            partially available.</p>
+                        </div>
+                    </Link>
                 </div>
                 <div className="cards-card cards-card__smaller">
                     <div className="cards-card__top">
