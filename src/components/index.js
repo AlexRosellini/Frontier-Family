@@ -4,7 +4,7 @@ const Index = () => {
         <article className="rover">
             <div className="rover-left">
                 <div className="rover-left__picture">
-                    <img src="./imgs/rover.jpg" alt="Rover Art"/>
+                    <img src="https://i.ibb.co/pJg0Jj8/rover.jpg" alt="Rover Art"/>
                 </div>
                 <div className="rover-left__subtitle">
                     <p>Potential concept art for the Rover</p>

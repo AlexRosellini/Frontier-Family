@@ -14,7 +14,7 @@ const TtrpgMainPage = () => {
                     <div className="cards-card__top">
                         <h3>New Dawn</h3>
                         <div className="cards-card__img">
-                            <img src="./imgs/Shayo.png" alt="Shayo" />
+                            <img src="https://i.ibb.co/zrL11d0/Shayo.png" alt="Shayo" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
@@ -27,7 +27,7 @@ const TtrpgMainPage = () => {
                     <div className="cards-card__top">
                         <h3>Jade Regent</h3>
                         <div className="cards-card__img">
-                            <img src="./imgs/Jade-Regent.png" alt="JadeRegent" />
+                            <img src="https://i.ibb.co/QnnFGXX/Jade-Regent.png" alt="JadeRegent" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
@@ -41,7 +41,7 @@ const TtrpgMainPage = () => {
                         <div className="cards-card__top">
                             <h3>Emp's Characters</h3>
                             <div className="cards-card__img cards-card__celia">
-                                <img src="./imgs/Celia.png" alt="Celia"/>
+                                <img src="https://i.ibb.co/HnPgW95/Celia.png" alt="Celia"/>
                             </div>
                         </div>
                         <div className="cards-card__bottom">
@@ -54,7 +54,7 @@ const TtrpgMainPage = () => {
                     <div className="cards-card__top">
                         <h3>Dice Roller</h3>
                         <div className="cards-card__img">
-                            <img src="./imgs/diceRoller.jpg" alt="DiceRoller" />
+                            <img src="https://i.ibb.co/ZLpXyxG/Hand-throwing-and-rolling-dice-Gambler-tossing-five-red-poker-and-casino-dice-on-table-Man-gambling.jpg" alt="DiceRoller" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">

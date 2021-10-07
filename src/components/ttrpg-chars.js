@@ -12,7 +12,7 @@ const TtrpgChars = () => {
                     <div className="cards-card__top">
                         <h3>Celia</h3>
                         <div className="cards-card__img cards-card__celia">
-                            <img src="./imgs/Celia.png" alt="Celia" />
+                            <img src="https://i.ibb.co/HnPgW95/Celia.png" alt="Celia" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
@@ -26,7 +26,7 @@ const TtrpgChars = () => {
                     <div className="cards-card__top">
                         <h3>Laureen</h3>
                         <div className="cards-card__img cards-card__celia">
-                            <img src="./imgs/Laureen.png" alt="Laureen" />
+                            <img src="https://i.ibb.co/64R9jbq/Laureen.png" alt="Laureen" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
@@ -40,7 +40,7 @@ const TtrpgChars = () => {
                     <div className="cards-card__top">
                         <h3>Raphael</h3>
                         <div className="cards-card__img">
-                            <img src="./imgs/Raphael.png" alt="Raphael" />
+                            <img src="https://i.ibb.co/S5bThNn/Raphael.png" alt="Raphael" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
@@ -53,7 +53,7 @@ const TtrpgChars = () => {
                     <div className="cards-card__top">
                         <h3>Rei</h3>
                         <div className="cards-card__img">
-                            <img src="./imgs/Rei.png" alt="Rei" />
+                            <img src="https://i.ibb.co/W2sXMwC/Rei.png" alt="Rei" />
                         </div>
                     </div>
                     <div className="cards-card__bottom">
