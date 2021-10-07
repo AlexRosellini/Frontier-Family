@@ -10,8 +10,16 @@ a:hover {
   color: #f59999;
 }
 
+span {
+  font-weight: bold;
+}
+
 body {
   background-color: white;
+}
+
+.alert {
+  color: #7a0101;
 }
 
 /**********************************/
@@ -192,4 +200,82 @@ body {
 .features__th, .features__td {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.ttrpg-main {
+  background-color: #807b6e;
+}
+
+.textArea {
+  background-color: #252525;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cards-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #4b4a4a;
+  width: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cards-card__top {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cards-card__top h3 {
+  padding-bottom: 20px;
+}
+
+.cards-card__top img {
+  width: 100%;
+  height: 350px;
+}
+
+.cards-card__celia img {
+  height: 450px;
+}
+
+.cards-card__bottom {
+  padding-bottom: 20px;
+}
+
+.cards-card__smaller {
+  margin-bottom: 50px;
+}
+
+.cards-card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 500 linear;
+  transition: 500 linear;
 }

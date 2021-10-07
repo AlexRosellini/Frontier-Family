@@ -1,0 +1,63 @@
+.ttrpg-main {
+    background-color: $section;
+}
+
+.textArea {
+    background-color: $textarea;
+    text-align: center;
+    @include padding-top-bottom-small;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include padding-top-bottom-small;
+    @include padding-left-right-large;
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        background-color: $rover;
+        width: 40%;
+        @include margin-left-right-large;
+        @include margin-top-bottom-small;
+        @include padding-left-right-large;
+
+        &__top {
+
+            text-align: center;        
+            @include padding-top-bottom-large;
+
+            & h3 {
+                @include padding-bottom-large;
+            }
+
+            & img {
+                width: 100%;
+                height: 350px;
+            }
+        }
+
+        &__celia {
+            & img {
+                height: 450px;
+            }
+        }
+
+        &__bottom {
+            @include padding-bottom-large;
+        }
+
+        &__smaller {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.cards-card:hover {
+    transform: scale(1.01);
+    transition: 500 linear;
+}
+

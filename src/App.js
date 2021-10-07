@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Feature from './components/featuretable';
 import Header from './components/header';
-import Rover from './components/rover';
+import Index from './components';
+import TtrpgMainPage from './components/ttrpg';
 
 function App() {
   return (
@@ -9,8 +9,14 @@ function App() {
       <div className="App">
         <Header />
         <div className="content">
-        <Rover />
-        <Feature />
+        <Switch>
+          <Route exact path = '/'>
+            <Index />
+          </Route>
+          <Route exact path = '/ttrpg'>
+            <TtrpgMainPage />
+          </Route>
+        </Switch>
         </div>
       </div>
     </Router>
