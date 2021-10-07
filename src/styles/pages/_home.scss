@@ -1,5 +1,6 @@
 .rover {
     @include margin-top-bottom-large;
+    @include margin-left-right-large;
     background-color: $rover;
     display: flex;
 
@@ -47,24 +48,29 @@
 }
 
 .features {
-    display: flex;
-    justify-content: center;
+    @include flex-C;
     @include margin-top-bottom-large;
-    text-align: center;
+    flex-direction: column;
 
     &__table {
-        border: 1px solid black;
+        border: 1px solid #000000;
+        width: 75%;
+        background-color: $rover;
+        @include margin-top-bottom-large;
+        @include padding-bottom-small;
     }
 
     &__thead {
-        background-color:rgb(46, 46, 46);
+        background-color: $thead;
+
     }
 
     &__tbody {
-        background-color: rgb(66, 66, 66);
+        background-color: $tbody;
     }
 
     &__th, &__td {
         @include padding-left-right-large;
+        
     }
 }

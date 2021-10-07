@@ -1,7 +1,6 @@
 const Feature = () => {
     return ( 
         <article className="features">
-            <h2>Features - </h2>
             <table className="features__table">
                 <thead className="features__thead">
                     <tr>
@@ -46,7 +45,6 @@ const Feature = () => {
                     </tr>
                 </tbody>
             </table>
-            <p>Feel free to suggest features on discord.</p>
         </article>
     );
 }
