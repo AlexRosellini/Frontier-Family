@@ -279,3 +279,7 @@ body {
   -webkit-transition: 500 linear;
   transition: 500 linear;
 }
+
+.ttrpg-Chars {
+  background-color: #807b6e;
+}
