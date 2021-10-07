@@ -11,7 +11,7 @@ function App() {
         <Header />
         <div className="content">
         <Switch>
-          <Route  path = '/'>
+          <Route  path = '/Frontier-Family/'>
             <Index />
           </Route>
           <Route exact path = '/ttrpg'>
