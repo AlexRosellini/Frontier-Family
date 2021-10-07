@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Frontier-Family/static/css/main.e3febe52.chunk.css",
-    "main.js": "/Frontier-Family/static/js/main.116fcff6.chunk.js",
-    "main.js.map": "/Frontier-Family/static/js/main.116fcff6.chunk.js.map",
+    "main.css": "/Frontier-Family/static/css/main.77c21f03.chunk.css",
+    "main.js": "/Frontier-Family/static/js/main.2ee82443.chunk.js",
+    "main.js.map": "/Frontier-Family/static/js/main.2ee82443.chunk.js.map",
     "runtime-main.js": "/Frontier-Family/static/js/runtime-main.420cdf67.js",
     "runtime-main.js.map": "/Frontier-Family/static/js/runtime-main.420cdf67.js.map",
     "static/js/2.b3e03e4a.chunk.js": "/Frontier-Family/static/js/2.b3e03e4a.chunk.js",
     "static/js/2.b3e03e4a.chunk.js.map": "/Frontier-Family/static/js/2.b3e03e4a.chunk.js.map",
     "index.html": "/Frontier-Family/index.html",
-    "static/css/main.e3febe52.chunk.css.map": "/Frontier-Family/static/css/main.e3febe52.chunk.css.map",
+    "static/css/main.77c21f03.chunk.css.map": "/Frontier-Family/static/css/main.77c21f03.chunk.css.map",
     "static/js/2.b3e03e4a.chunk.js.LICENSE.txt": "/Frontier-Family/static/js/2.b3e03e4a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.420cdf67.js",
     "static/js/2.b3e03e4a.chunk.js",
-    "static/css/main.e3febe52.chunk.css",
-    "static/js/main.116fcff6.chunk.js"
+    "static/css/main.77c21f03.chunk.css",
+    "static/js/main.2ee82443.chunk.js"
   ]
 }
