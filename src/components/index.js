@@ -1,6 +1,6 @@
 const Index = () => {
     return(
-        <section>
+    <section className="index-section">
         <article className="rover">
             <div className="rover-left">
                 <div className="rover-left__picture">
@@ -78,7 +78,7 @@ const Index = () => {
                 </tbody>
             </table>
         </article>
-        </section>
+    </section>
     );
 }
 

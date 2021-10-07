@@ -91,6 +91,13 @@ body {
   padding-top: 20px;
 }
 
+.index-section {
+  background-color: #807b6e;
+  height: 130vh;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .rover {
   margin-bottom: 20px;
   margin-top: 20px;

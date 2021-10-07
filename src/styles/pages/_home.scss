@@ -1,3 +1,9 @@
+.index-section {
+    background-color: $section;
+    height: 130vh;
+    @include padding-top-bottom-large;
+}
+
 .rover {
     @include margin-top-bottom-large;
     @include margin-left-right-large;
